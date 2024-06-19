@@ -4,6 +4,9 @@
     font-weight: bold;
     padding-top: 1rem;
 }
+.container2 {
+    max-width: 1200px;
+}
 nav{
     margin: 0 auto;
 }

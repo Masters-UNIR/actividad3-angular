@@ -1,0 +1,9 @@
+.gmap {
+    margin: 0 auto;
+    flex: 0 0 auto;
+    width: 100%;
+    height: 600px;
+    max-width: 1160px;
+    margin: 2rem auto;
+    margin-bottom: 20px;
+}

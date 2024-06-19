@@ -5,6 +5,8 @@ import { CommonModule } from '@angular/common';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FooterComponent } from './components/footer/footer.component';
+import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
+import {GoogleMapsComponent} from './components/google-maps/google-maps.component';
 
 
 @Component({

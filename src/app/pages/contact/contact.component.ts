@@ -1,9 +1,11 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { GoogleMapsComponent } from '../../components/google-maps/google-maps.component';
 
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [],
+  imports: [CommonModule, GoogleMapsComponent],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.css'
 })
