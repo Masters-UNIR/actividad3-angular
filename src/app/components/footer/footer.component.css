@@ -1,0 +1,51 @@
+.titulo {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.logo {
+    background-image: url('../../../assets/img/logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 120px;
+
+    text-align: center;
+}
+
+.logo a {
+    display: inline-block;
+    padding-top: 16px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.footer .menu-principal {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer .menu-principal a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer .menu-principal a:hover {
+    color: #f26822;
+}
+
+@media screen and (max-width: 768px) {
+    .logo-menu {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+.container2 {
+    max-width: 1200px;
+}

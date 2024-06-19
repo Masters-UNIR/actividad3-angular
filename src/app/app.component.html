@@ -1,2 +1,41 @@
 <app-info-bar></app-info-bar>
+
+
+<nav class="navbar navbar-expand-lg bg-success-subtle container2 mx-auto">
+  <div class="container-fluid">
+    <a href="/home" class="navbar-brand logo titulo">
+      Mery-Lou <br />
+      Bar-Restaurant
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-principal">
+        <li class="nav-item" aria-current="page">
+          <a class="nav-link active" href="/home">
+            <span data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">Home</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">
+            <span data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">Sobre Nosotros</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/enviroment" class="nav-link"><span data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup">Entorno, Cultura y Ocio</span></a>
+        </li>
+        <li class="nav-item">
+          <a href="/contact" class="nav-link"><span data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup">Contacto</span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 <router-outlet />
+<app-footer></app-footer>

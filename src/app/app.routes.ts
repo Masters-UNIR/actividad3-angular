@@ -8,10 +8,10 @@ import { EnviromentComponent } from './pages/enviroment/enviroment.component';
 
 export const routes: Routes = [
     {path:'home', component: HomeComponent},
-    {path:'', component: HomeComponent},
-    {path:'**', component: ErrorComponent},
+    {path:'', component: HomeComponent, pathMatch: 'full'},
     {path:'about', component: AboutComponent},
     {path:'contact', component: ContactComponent},
     {path:'enviroment', component: EnviromentComponent},
+    {path:'**', component: ErrorComponent},
 
 ];
