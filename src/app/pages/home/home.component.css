@@ -1,0 +1,8 @@
+ul li:nth-child(4n + 1) {
+    font-size: 1.3rem;
+    margin-top: 1.1rem;
+}
+
+.container2 {
+    max-width: 1200px;
+}
