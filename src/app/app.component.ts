@@ -7,12 +7,13 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FooterComponent } from './components/footer/footer.component';
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import {GoogleMapsComponent} from './components/google-maps/google-maps.component';
+import { GoogleMapsModule } from '@angular/google-maps';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,RouterModule  , CommonModule, FontAwesomeModule, InfoBarComponent, FooterComponent],
+  imports: [RouterOutlet,RouterModule  , CommonModule, FontAwesomeModule, InfoBarComponent, FooterComponent, GoogleMapsModule, GoogleMapsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

@@ -18,13 +18,10 @@ export class GoogleMapsComponent {
 
 
    options: google.maps.MapOptions = {
-    mapId: "DEMO_MAP_ID",
-    center: { lat: -31, lng: 147 },
-    zoom: 4,
+    mapId: "mery-lourestaurant",
+    center: { lat: 42.1148, lng: 3.144766 },
+    zoom: 16,
   };
-
-
-
 
 }
 

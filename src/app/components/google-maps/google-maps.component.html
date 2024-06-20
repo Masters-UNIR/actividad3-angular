@@ -1,5 +1,10 @@
-<div class="gmap d-flex justify-content-center">
-    <google-map height="400px" width="800px" [center]="{lat: -34.397, lng: 150.644}" [zoom]="8">
-
-    </google-map>
+<div class="gmap row">
+  <google-map
+    class="d-flex"
+    id="map"
+    width="1160px"
+    height="600px"
+    [options]="options"
+  >
+  </google-map>
 </div>
