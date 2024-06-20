@@ -18,6 +18,10 @@
 
   <body style="overflow-x: hidden">
     <app-root></app-root>
+    <script src="./environments/environments.js" type="module">
+      import { environment } from "./environments/environments.js";
+      const apiKey = environment.GoogleMaps.apiKey;
+    </script>
     <script>
       ((g) => {
         var h,
@@ -55,7 +59,7 @@
           : (d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)));
       })({
         v: "weekly",
-        key: "AIzaSyAowpv9-5VhaJUjMtnpu3belntcvAidW30",
+        key: apiKey,
       });
     </script>
   </body>
